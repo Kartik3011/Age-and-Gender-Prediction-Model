@@ -1,7 +1,7 @@
 import cv2 as cv
 import time
 import argparse
-import numpy as np
+import numpy as np 
 
 
 def getFaceBox(net, frame, conf_threshold=0.7):
