@@ -23,9 +23,6 @@ Supports webcam or video/image file input.
 
 Install dependencies:
 
-nginx
-Copy
-Edit
 pip install opencv-python
 
 Download the required model files and place them in the project directory:
