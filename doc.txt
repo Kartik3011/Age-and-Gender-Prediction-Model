@@ -12,7 +12,7 @@ genderModel = "gender_net.caffemodel"
 
 
 
-
+ 
 
 faceNet = cv2.dnn.readNet(faceModel, faceProto)
 
