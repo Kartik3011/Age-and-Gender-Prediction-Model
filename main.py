@@ -2,7 +2,7 @@ import cv2 as cv
 import time
 import argparse
 import numpy as np 
-
+ 
 def getFaceBox(net, frame, conf_threshold=0.7):
     frameOpencvDnn = frame.copy()
     frameHeight, frameWidth = frameOpencvDnn.shape[:2]
