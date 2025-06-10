@@ -1,45 +1,70 @@
-IMP: In order to run the code, please download these 2 models beforehand.
+# Getting Started with Create React App
 
-## Download Model
-[Click here to download the model]-https://drive.google.com/file/d/1-NulrhEUi2MN3PPnLZ5cdzjYtUIpKZMg/view?usp=sharing
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Download Model
-[Click here to download the model]-https://drive.google.com/file/d/1GpBXhPNHpyL-RWaulUAu81YCvlkK2prm/view?usp=sharing
+## Available Scripts
 
-## AGE AND GENDER PREDICTION MODEL
+In the project directory, you can run:
 
-This project uses OpenCV's **Deep Neural Network (DNN)** module to detect faces in real-time from webcam or video/image input and predict the age and gender of each detected face.
+### `npm start`
 
-## Features
-Real-time face detection using OpenCV DNN.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Age and gender prediction using pre-trained Caffe models.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Automatically detects whether a face is present and shows a message if not.
+### `npm test`
 
-Supports webcam or video/image file input.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Installation
+### `npm run build`
 
-Install dependencies:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-pip install opencv-python
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Download the required model files and place them in the project directory:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-opencv_face_detector.pbtxt
+### `npm run eject`
 
-opencv_face_detector_uint8.pb
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-age_deploy.prototxt
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-gender_deploy.prototxt
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-gender_net.caffemodel - https://drive.google.com/file/d/1GpBXhPNHpyL-RWaulUAu81YCvlkK2prm/view?usp=sharing
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-age_net.caffemodel - https://drive.google.com/file/d/1-NulrhEUi2MN3PPnLZ5cdzjYtUIpKZMg/view?usp=sharing
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-The model may not be 100% accurate; it gives an estimation based on facial features.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-For best results, use clear and front-facing face images.
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
