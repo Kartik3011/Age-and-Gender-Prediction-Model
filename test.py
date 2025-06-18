@@ -3,7 +3,7 @@ import cv2 as cv
 import time
 import argparse
 from collections import deque
-
+ 
 def getFaceBox(net, frame, conf_threshold=0.8):
     frameOpencvDnn = frame.copy()
     frameHeight = frameOpencvDnn.shape[0]
