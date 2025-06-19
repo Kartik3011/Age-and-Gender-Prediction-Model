@@ -31,6 +31,10 @@ gender_net.caffemodel - https://drive.google.com/file/d/1GpBXhPNHpyL-RWaulUAu81Y
 
 age_net.caffemodel - https://drive.google.com/file/d/1-NulrhEUi2MN3PPnLZ5cdzjYtUIpKZMg/view?usp=sharing
 
+After downloading the repo, please use these commands:
+npm install - (To Install frontend dependencies)
+npm start - (To run the frontend)
+python app.py - (To run the backend)
 
 The model may not be 100% accurate; it gives an estimation based on facial features.
 
