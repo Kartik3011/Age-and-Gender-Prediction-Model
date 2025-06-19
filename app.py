@@ -6,7 +6,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-# Load model files and labels
+  # Load model files and labels
 faceProto = "opencv_face_detector.pbtxt"
 faceModel = "opencv_face_detector_uint8.pb"
 ageProto = "age_deploy.prototxt"
