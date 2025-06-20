@@ -86,7 +86,7 @@ smallCanvas.width = 160;
 smallCanvas.height = 120;
 
 // Downscale the video into smaller canvas
-smallCtx.drawImage(video, 0, 0, 160, 120);
+smallCtx.drawImage(v, 0, 0, 160, 120);
 
 // Encode as lower-quality JPEG
 const dataURL = smallCanvas.toDataURL('image/jpeg', 0.4);
