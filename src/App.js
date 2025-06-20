@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './index.css';
 
-const BACKEND = 'https://Age-and-Gender-Prediction-Model.onrender.com';
+const BACKEND = 'https://age-gender-backend.onrender.com';
 const PREDICT_URL = `${BACKEND}/predict`;
+
 
 
 /* helper to pick the mode of an array */
