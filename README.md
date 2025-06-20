@@ -1,7 +1,9 @@
 ## AGE AND GENDER PREDICTION MODEL
 
 This project uses OpenCV's **Deep Neural Network (DNN)** module to detect faces in real-time from webcam or video/image input and predict the age and gender of each detected face.
-#Deployed Project- https://age-and-gender-prediction-model.vercel.app/
+
+DEPLOYED PROJECT- https://age-and-gender-prediction-model.vercel.app/
+
 Note: First prediction may take 30s due to free backend waking up (Render).
 
 ## Features
