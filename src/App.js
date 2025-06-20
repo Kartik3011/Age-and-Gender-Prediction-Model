@@ -78,7 +78,19 @@ function App() {
       c.width = v.videoWidth; c.height = v.videoHeight;
       ctx.drawImage(v, 0, 0, c.width, c.height);   // ensure current frame drawn
 
-      const dataURL = c.toDataURL('image/jpeg', 0.7);
+      // Create a small offscreen canvas for faster upload
+const smallCanvas = document.createElement('canvas');
+const smallCtx = smallCanvas.getContext('2d');
+
+smallCanvas.width = 160;
+smallCanvas.height = 120;
+
+// Downscale the video into smaller canvas
+smallCtx.drawImage(video, 0, 0, 160, 120);
+
+// Encode as lower-quality JPEG
+const dataURL = smallCanvas.toDataURL('image/jpeg', 0.4);
+
       fetch(PREDICT_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -103,7 +115,7 @@ function App() {
           }
         })
         .catch(() => setResultText('Error predicting'));
-    }, 500);
+    }, 200);
     return () => clearInterval(id);
   }, []);
 
