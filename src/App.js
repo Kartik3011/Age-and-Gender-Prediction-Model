@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./index.css";
 
-const BACKEND = "https://age-gender-backend.onrender.com";
+const BACKEND = "https://age-gender-backend.onrender.com"; // IMP- Change this link to local port if running locally on computer terminal.
 const PREDICT_URL = `${BACKEND}/predict`;
 
 const mostCommon = (arr) =>
